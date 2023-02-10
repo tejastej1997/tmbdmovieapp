@@ -1,0 +1,64 @@
+
+.popularmovies
+{
+    margin-top: 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+#pop-title
+{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: normal;
+    color: #0c2461;
+}
+.popularmovies .details
+{
+    position: relative;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    display: block;
+    
+}
+.popularmovies .details img
+{
+    transition: 0.5s ease-in-out;
+    border-radius: 5px;
+}
+.popularmovies .details img:hover
+{
+  transform: scale(1.1);
+  /* transition: 0.5s ease-in-out; */
+}
+#title 
+{
+    margin-top: 10px;
+}
+#playnow 
+{
+    color: #0c2461;
+}
+.popularmovies  a
+{
+    text-decoration: none;
+    color: black;
+}
+#loadmore{
+  display: block;
+  justify-content: center;
+  padding: 10px;
+  margin: 0 auto;
+  font-size: 15px;
+  background-color: #0c2461;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 25px auto;
+}

@@ -1,0 +1,100 @@
+.signup
+{
+    width: 100%;
+}
+.signup-content
+{
+    position: absolute;
+    width: 25%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   box-shadow: 2px 2px 10px #130f40;
+   padding: 30px;
+   border-radius: 5px;
+}
+.signup-content form
+{
+    display: grid;
+    grid-template-columns: 90%;
+    justify-content: center;
+    row-gap: 20px;
+}
+.signup-content form input
+{
+    padding: 10px 15px;
+    outline: none;
+    border: 0.5px solid #130f40;
+    border-radius: 3px;
+}
+.signup-content form input[type="submit"]
+{
+   width: 100%;
+    padding: 10px 15px;
+    display: block;
+    margin: 0 auto;
+    outline: none;
+    border: none;
+    background-color: #130f40;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.signup-content form p
+{
+    text-align: center;
+    color: #130f40;
+    /* font-size: 20px; */
+}
+.signup-content form p a
+{
+    text-decoration: none;
+    color: #130f40;
+}
+
+.or 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.or p
+{
+    border: 1px solid #130f40;
+    padding: 0 3px;
+    color: #130f40;
+    border-radius: 3px;
+}
+.or hr
+{
+   width: 150px;
+  border: 0.1px solid #130f40;
+}
+
+.social-media-signin
+{
+    /* border: 1px solid black; */
+    width: 100%;
+    /* margin: 10px auto; */
+}
+.social-media-signin .sign-in-with-google button
+{
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #130f40;
+    color: white;
+    border-radius: 5px;
+    border: 0.5px solid #0c2461;
+    cursor: pointer;
+
+}
+.social-media-signin .sign-in-with-google button:hover
+{
+    background-color: white;
+    color: #0c2461;
+    border: 0.5px solid #0c2461;
+ transition: 0.5s ease-in-out;
+}
