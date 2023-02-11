@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tmbdmovieapp/static/css/main.5d370d2e.css",
+    "main.js": "/tmbdmovieapp/static/js/main.64f5fd5c.js",
+    "index.html": "/tmbdmovieapp/index.html",
+    "main.5d370d2e.css.map": "/tmbdmovieapp/static/css/main.5d370d2e.css.map",
+    "main.64f5fd5c.js.map": "/tmbdmovieapp/static/js/main.64f5fd5c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d370d2e.css",
+    "static/js/main.64f5fd5c.js"
+  ]
+}
