@@ -51,7 +51,7 @@ let [usersignin,setUsersignin]=useState(false)
           <Route path="/individualmovies/:id" element={<IndividualPopularMovies />} />
           <Route path='/toprated' element={<Toprated />} />
           <Route path='/search/:searchkey' element={<Searchcomponent />} />
-          </React.Fragment> : <Route path="*" element={<Errorpage/>} />
+          </React.Fragment> : <Route path="/tmbdmovieapp" element={<Signup/>} />
 
           }
           <Route path="*" element={<Errorpage/>} />
